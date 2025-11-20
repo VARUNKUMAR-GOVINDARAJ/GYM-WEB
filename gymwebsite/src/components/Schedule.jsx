@@ -56,7 +56,7 @@ export default function SchedulePage() {
       </div>
 
       {/* ---------------- REVIEW SECTION ---------------- */}
-      <div className="mt-24">
+      <div className="mt-5">
         <div className="text-center mb-12">
           <h2 className="text-red-600 text-3xl font-bold tracking-wider">REVIEW</h2>
           <p className="text-gray-500 text-sm mt-5">READ WHAT PEOPLE SAY</p>

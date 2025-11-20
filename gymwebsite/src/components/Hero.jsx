@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center brightness-75"
-        style={{ backgroundImage: `url(${heroImg})` }}
+        style={{ backgroundImage: `url(Hero.png)` }}
       ></div>
 
       {/* Top Bar */}
@@ -24,22 +24,25 @@ export default function Hero() {
       </div>
 
       {/* Middle Content */}
-      <div className="absolute inset-0 flex flex-col justify-center px-6">
+      <div className="absolute inset-0 flex flex-col justify-center items-center px-6 text-center">
         <p className="text-red-500 font-semibold mb-1">CARDIO</p>
-        <h1 className="text-white font-extrabold text-4xl leading-tight drop-shadow-md">
+
+        <h1 className="text-white font-extrabold text-6xl leading-tight drop-shadow-md">
           LIVE IT <br /> LIKE A ROCK!
         </h1>
 
-        <div className="absolute left-4 top-1/2 transform -translate-y-1/2 flex flex-col items-center">
-          <div className="w-14 h-14 rounded-full bg-white/30 flex items-center justify-center">
+        {/* LEFT SIDE BUTTON (kept in same position) */}
+        <div className="absolute left-4 top-1/2 -translate-y-1/2 flex flex-col items-center">
+          {/* <div className="w-14 h-14 rounded-full bg-white/30 flex items-center justify-center">
             <div className="w-8 h-8 bg-white rounded-full"></div>
-          </div>
+          </div> */}
           <p className="text-white text-xs rotate-90 mt-2 tracking-widest">
             PLAY VIDEO
           </p>
         </div>
       </div>
-      
+
+
     </div>
   );
 }
