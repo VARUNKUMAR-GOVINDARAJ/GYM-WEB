@@ -5,7 +5,7 @@ const heroImg = "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ix
 
 export default function Hero() {
   return (
-    <div className="w-full h-[520px] relative">
+    <div id="home" className="w-full h-[520px] relative">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center brightness-75"
@@ -39,24 +39,7 @@ export default function Hero() {
           </p>
         </div>
       </div>
-
-      {/* Navigation Links */}
-      <div className="absolute top-3 right-20 hidden md:flex gap-6 text-sm font-medium">
-        {[
-          "ABOUT US",
-          "FACILITIES",
-          "BMI",
-          "SCHEDULE",
-          "REVIEWS",
-          "COACHES",
-          "BLOG",
-          "GALLERY",
-        ].map((item) => (
-          <a key={item} className="text-white hover:text-red-500">
-            {item}
-          </a>
-        ))}
-      </div>
+      
     </div>
   );
 }

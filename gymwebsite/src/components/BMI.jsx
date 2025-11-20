@@ -5,7 +5,7 @@ const bmiBackgroundImage = "https://images.unsplash.com/photo-1571019613454-1cb2
 
 export default function BMI() {
   return (
-    <section
+    <section id="bmi"
       className="w-full py-16 px-6 md:px-20 relative"
       
     >

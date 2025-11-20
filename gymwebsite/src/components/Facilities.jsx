@@ -3,25 +3,25 @@ import React from "react";
 const facilities = [
   {
     title: "CARDIO ZONE",
-    img: "https://images.unsplash.com/photo-1571019613574-3b21f3c5ca5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+    img: "/Frame9.png",
   },
   {
     title: "EXERCISE STUDIO",
-    img: "https://images.unsplash.com/photo-1599058917212-d750089bc07c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+    img: "/Frame6.png",
   },
   {
     title: "WEIGHT TRAINING",
-    img: "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+    img: "/Frame7.png",
   },
   {
     title: "FUNCTIONAL ZONE",
-    img: "https://images.unsplash.com/photo-1554825203-78f2a7b44a56?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+    img: "/Frame8.png",
   },
 ];
 
 export default function Facilities() {
   return (
-    <section className="w-full bg-white py-16 px-6 md:px-20">
+    <section id="facilities" className="w-full bg-white py-32 px-6 md:px-20">
       {/* ✅ ALL CONTENT CENTERED */}
       <div className="text-center mb-10 max-w-3xl mx-auto">
         <h2 className="text-red-600 text-3xl font-bold mb-2">FACILITIES</h2>

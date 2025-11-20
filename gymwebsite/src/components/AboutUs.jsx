@@ -5,7 +5,7 @@ const aboutImage = "https://images.unsplash.com/photo-1534438327276-14e53467d038
 
 export default function AboutUs() {
   return (
-    <section className="w-full bg-white py-16 px-6 md:px-20 flex flex-col md:flex-row items-center justify-between gap-10">
+    <section id="about" className="w-full bg-white py-16 px-6 md:px-20 flex flex-col md:flex-row items-center justify-between gap-10">
       {/* Left Content */}
       <div className="md:w-1/2">
         <h2 className="text-red-600 text-3xl font-bold mb-2">ABOUT US</h2>
@@ -33,7 +33,7 @@ export default function AboutUs() {
         </div>
         {/* Real gym image from Unsplash */}
         <img
-          src={aboutImage}
+          src="image2.png"
           alt="Fitness Woman"
           className="relative z-10 max-w-md w-full object-contain"
         />
