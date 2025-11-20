@@ -27,8 +27,8 @@ function App() {
       <COACHE />
       <BLOG />
       <Gallery />
-      {/* <Contact />
-      <Footer /> */}
+      <Contact />
+      <Footer />
     </div>
   );
 }
