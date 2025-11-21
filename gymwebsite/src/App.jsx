@@ -13,6 +13,7 @@ import Navbar from './components/Navbar';
 import SchedulePage from './components/Schedule';
 import COACHE from './components/Coaches';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
       <BLOG />
       <Gallery />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
